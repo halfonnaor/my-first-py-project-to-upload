@@ -24,7 +24,7 @@ def mission5():
     driver_youtube.get(url)
     elmentPath = '/html/body/ytd-app/div[1]/div/ytd-masthead/div[3]/div[2]/ytd-searchbox/form/div[1]/div[1]/input'
     searchElement = driver_youtube.find_element(By.XPATH, elmentPath)
-    searchElement.send_keys("אייל גולן")
+    searchElement.send_keys("just test")
     searchElement.submit()
 
 mission5()
